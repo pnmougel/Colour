@@ -1,0 +1,12 @@
+2012-12-27 17:27:57,992 - [INFO] - from play in main 
+Listening for HTTP on port 9000...
+
+2012-12-27 17:28:04,115 - [INFO] - from play in play-akka.actor.default-dispatcher-1 
+database [default] connected at jdbc:postgresql://localhost:5432/color
+
+2012-12-27 17:28:04,285 - [INFO] - from play in play-akka.actor.default-dispatcher-1 
+Starting application default Akka system.
+
+2012-12-27 17:28:04,289 - [INFO] - from play in play-akka.actor.default-dispatcher-1 
+Application started (Dev)
+

@@ -1,0 +1,14 @@
+package controllers.admin.action
+
+import play.api._
+import play.api.mvc._
+import play.api.data._
+import play.api.data.Forms._
+
+object FindType extends Controller with AdminAction {
+    val description = "45"
+    
+    val name = "Find types"
+    
+    val label = "Find types"
+}

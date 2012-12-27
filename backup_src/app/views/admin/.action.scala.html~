@@ -1,0 +1,12 @@
+@(action : controllers.admin.action.AdminAction)(implicit request: RequestHeader)
+
+@import helper._
+@import helper.twitterBootstrap._
+@import controllers.admin.action._
+
+    
+@mainAdmin(action.name, request) {
+    <div class="container">
+        
+    </div>
+}

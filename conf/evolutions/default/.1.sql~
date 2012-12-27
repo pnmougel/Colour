@@ -1,0 +1,147 @@
+# Tasks schema
+ 
+# --- !Ups
+
+CREATE TABLE IF NOT EXISTS IUser (
+    id BIGSERIAL NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    pseudo VARCHAR(255),
+    isAdmin BOOLEAN NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS Ranking (
+    id BIGSERIAL NOT NULL,
+    url VARCHAR(255),
+    name VARCHAR(255) NOT NULL,
+    description TEXT,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS Tag (
+    id BIGSERIAL NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS Field (
+    id BIGSERIAL NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS SubField (
+    id BIGSERIAL NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    field_id BIGINT NOT NULL REFERENCES Field(id) ON DELETE CASCADE,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS Publisher (
+    id BIGSERIAL NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS Ctype (
+    id BIGSERIAL NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS Conference (
+    id BIGSERIAL NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    short_name VARCHAR(255) NOT NULL,
+    year_since INT,
+    description TEXT,
+    hindex INT,
+    nb_articles INT,
+    is_national BOOLEAN,
+    is_workshop BOOLEAN,
+    is_journal BOOLEAN,
+    ctype_id BIGINT NOT NULL REFERENCES Ctype(id) ON DELETE CASCADE,
+    field_id BIGINT NOT NULL REFERENCES Field(id) ON DELETE CASCADE,
+    publisher_id BIGINT REFERENCES Publisher(id) ON DELETE CASCADE,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS Conference_Subfield (
+    conference_id BIGINT NOT NULL REFERENCES Conference(id) ON DELETE CASCADE,
+    subfield_id BIGINT NOT NULL REFERENCES SubField(id) ON DELETE CASCADE,
+    PRIMARY KEY (conference_id,subfield_id)
+);
+
+
+CREATE TABLE IF NOT EXISTS Comment (
+    id BIGSERIAL NOT NULL,
+    user_id BIGINT NOT NULL REFERENCES IUser(id) ON DELETE CASCADE,
+    conference_id BIGINT NOT NULL REFERENCES Conference(id) ON DELETE CASCADE,
+    content TEXT NOT NULL,
+    date TIMESTAMP WITH TIME ZONE NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS Conference_Tag (
+    conference_id BIGINT NOT NULL REFERENCES Conference(id) ON DELETE CASCADE,
+    tag_id BIGINT NOT NULL REFERENCES Tag(id) ON DELETE CASCADE,
+    PRIMARY KEY (conference_id,tag_id)
+);
+
+CREATE TABLE IF NOT EXISTS RankingScore (
+    ranking_id BIGSERIAL NOT NULL REFERENCES Ranking(id) ON DELETE CASCADE,
+    conference_id BIGINT NOT NULL REFERENCES Conference(id) ON DELETE CASCADE,
+    score VARCHAR(255) NOT NULL,
+    PRIMARY KEY (ranking_id,conference_id)
+);
+
+CREATE TABLE IF NOT EXISTS Link (
+    id BIGSERIAL NOT NULL,
+    conference_id BIGINT NOT NULL REFERENCES Conference(id) ON DELETE CASCADE, 
+    url VARCHAR(255) NOT NULL,
+    name VARCHAR(255),
+    date TIMESTAMP WITH TIME ZONE,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS ScoreUser (
+    user_id BIGINT NOT NULL REFERENCES IUser(id) ON DELETE CASCADE,
+    conference_id BIGINT NOT NULL REFERENCES Conference(id) ON DELETE CASCADE,
+    score INT NOT NULL,
+    date TIMESTAMP WITH TIME ZONE NOT NULL,
+    PRIMARY KEY (user_id,conference_id)
+);
+
+CREATE TABLE IF NOT EXISTS ConferenceRelationType (
+    id BIGSERIAL NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS ConferenceRelation (
+    conference_from_id BIGINT NOT NULL REFERENCES Conference(id) ON DELETE CASCADE,
+    conference_to_id BIGINT NOT NULL REFERENCES Conference(id) ON DELETE CASCADE,
+    conference_relation_type_id BIGINT NOT NULL REFERENCES ConferenceRelationType(id) ON DELETE CASCADE,
+    PRIMARY KEY (conference_from_id, conference_to_id)
+);
+
+# --- !Downs
+ 
+DROP TABLE IF EXISTS ConferenceConferenceRelation CASCADE;
+DROP TABLE IF EXISTS ScoreUser CASCADE;
+DROP TABLE IF EXISTS Link CASCADE;
+DROP TABLE IF EXISTS RankingScore CASCADE;
+DROP TABLE IF EXISTS ConferenceTag CASCADE;
+DROP TABLE IF EXISTS Comment CASCADE;
+DROP TABLE IF EXISTS Tag CASCADE;
+DROP TABLE IF EXISTS IUser CASCADE;
+DROP TABLE IF EXISTS Conference_Subfield CASCADE;
+DROP TABLE IF EXISTS ConferenceRelation CASCADE;
+DROP TABLE IF EXISTS ConferenceRelationType CASCADE;
+DROP TABLE IF EXISTS Conference CASCADE;
+DROP TABLE IF EXISTS Publisher CASCADE;
+DROP TABLE IF EXISTS SubField CASCADE;
+DROP TABLE IF EXISTS Field CASCADE;
+DROP TABLE IF EXISTS Ranking CASCADE;
+DROP TABLE IF EXISTS Ctype CASCADE;

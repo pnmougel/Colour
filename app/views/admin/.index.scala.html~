@@ -1,0 +1,12 @@
+@(implicit request: RequestHeader)
+
+@import helper._
+@import helper.twitterBootstrap._
+@import java.text.NumberFormat
+@import java.util.Locale
+    
+@mainAdmin("Home", request) {
+    <div class="container">
+        
+    </div>
+}

@@ -1,0 +1,16 @@
+package controllers.admin.action
+
+import play.api._
+import play.api.mvc._
+import play.api.data._
+import play.api.data.Forms._
+import controllers.package$
+import models.Conference
+
+object FindPublishers extends Controller with AdminAction {
+    val description = "Bla !!"
+    
+    val label = "Find publisher"
+    
+    val name = "Find publisher"
+}

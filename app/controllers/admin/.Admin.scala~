@@ -1,0 +1,48 @@
+package controllers.admin
+
+import play.api._
+import play.api.mvc._
+import play.api.data._
+import play.api.data.Forms._
+import controllers.package$
+import models.Conference
+import controllers.admin.action._
+
+object Admin extends Controller {
+	
+	def actions = List[AdminAction](FindType, FindPublishers)
+	
+	def actionsMap = Map[String, AdminAction]("type" -> FindType, "publisher" -> FindPublishers)
+	
+    def index = Action { implicit request =>
+        Ok(views.html.admin.index())
+    }
+    
+    def selectAction(actionName : String) = Action { implicit request =>
+        if(actionsMap.contains(actionName)) {
+            Ok(views.html.admin.action(actionsMap(actionName)))
+        } else {
+            Ok(views.html.admin.index())
+        }
+        
+    }
+    
+    /*
+    def list = Action {
+        var methodNames = ""
+        Conference.getClass.getMethods foreach { method =>
+            methodNames += method + " - " + method.getParameterTypes.size + "\n"
+            method.getParameterTypes.foreach { p =>
+                methodNames += "\t" + p.getName + "\n"
+            }
+            method.getParameterAnnotations.foreach { m =>
+                m.foreach { x =>
+                    methodNames += "\t" + x.toString + "\n"
+                }
+            }
+        }
+        Ok(methodNames)
+        
+    }
+    */
+}

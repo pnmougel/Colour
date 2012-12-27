@@ -1,0 +1,52 @@
+run
+eclipsify
+~ run
+run
+play deps --sync
+dependencies
+run
+eclipsify
+run
+help
+reload
+reboot full
+run
+run 5000
+run
+play
+run
+eclipsify 
+~run
+run
+~run
+run
+eclipsify 
+run
+~run
+run
+~run
+run
+eclipsify
+run
+~run
+eclipsify
+~run
+play clean
+clean
+run
+eclipsify
+run
+~run
+run
+eclipsify
+~run
+eclipsify
+~run
+run
+play
+run
+~run
+run
+eclipsify
+~run
+run
