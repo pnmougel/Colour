@@ -3,4 +3,4 @@
 /dist
 /backup_src
 /.target
-/app/controllers/*~
+*~
