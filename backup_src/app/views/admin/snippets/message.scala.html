@@ -1,6 +1,0 @@
-@(messages : List[controllers.admin.AdminMessage])
-
-@messages.map { message =>
-	<div style="margin-bottom:8px;"><span class="label label-@message.messageType">@message.label</span> @message.content</div>
-}
-
