@@ -1,0 +1,6 @@
+/target
+/tmp
+/dist
+/backup_src
+/.target
+/app/controllers/*~
