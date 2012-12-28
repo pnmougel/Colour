@@ -31,8 +31,8 @@ Seq[Any](format.raw/*1.1*/("""<p>Sorry, in order to avoid spams, only logged use
 }
                 /*
                     -- GENERATED --
-                    DATE: Sun Dec 23 02:57:35 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/help/contactUs.scala.html
+                    DATE: Fri Dec 28 12:49:09 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/help/contactUs.scala.html
                     HASH: 3403c4095cf7c08e04e9f54c9e6070c96d41b3d1
                     MATRIX: 578->0
                     LINES: 22->1

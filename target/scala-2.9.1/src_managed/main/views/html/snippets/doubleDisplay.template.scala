@@ -37,8 +37,8 @@ Seq[Any](format.raw/*1.17*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat Dec 22 20:04:36 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/snippets/doubleDisplay.scala.html
+                    DATE: Fri Dec 28 12:49:10 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/snippets/doubleDisplay.scala.html
                     HASH: d5a646ba4b1b66c5f5857cd13ceada01a7922a75
                     MATRIX: 522->1|614->16|651->19|683->43|722->45|759->48|771->53|798->59|817->62|828->67|865->68|905->74|948->96
                     LINES: 19->1|22->1|24->3|24->3|24->3|25->4|25->4|25->4|26->5|26->5|26->5|27->6|27->6

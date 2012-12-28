@@ -69,8 +69,8 @@ Seq[Any](format.raw/*1.41*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Fri Dec 21 14:50:21 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/conferences/links.scala.html
+                    DATE: Fri Dec 28 12:49:09 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/conferences/links.scala.html
                     HASH: c1f3dd76ed86f3021abe9ae379857390cd659351
                     MATRIX: 534->1|700->40|728->93|839->170|865->188|904->190|1701->956|1745->965|1773->984|1813->986|1888->1044|1900->1049|1938->1050|2012->1089|2025->1094|2038->1098|2086->1108|2128->1115|2145->1123|2178->1134|2211->1136|2244->1138
                     LINES: 19->1|25->1|27->5|31->9|31->9|31->9|48->26|50->28|50->28|50->28|52->30|52->30|52->30|54->32|54->32|54->32|54->32|55->33|55->33|55->33|56->34|57->35

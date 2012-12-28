@@ -105,8 +105,8 @@ Seq[Any](format.raw/*1.35*/(""" """),_display_(Seq[Any](/*1.37*/main(request)/*1
 }
                 /*
                     -- GENERATED --
-                    DATE: Tue Dec 25 18:14:11 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/staticpages/widget.scala.html
+                    DATE: Fri Dec 28 12:49:09 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/staticpages/widget.scala.html
                     HASH: b240ee687a4e42eb11007af3e4e9fb7388899ef0
                     MATRIX: 525->1|635->34|672->36|693->49|732->51|3631->2919
                     LINES: 19->1|22->1|22->1|22->1|22->1|95->74

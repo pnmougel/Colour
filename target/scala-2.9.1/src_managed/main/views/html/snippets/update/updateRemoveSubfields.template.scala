@@ -39,8 +39,8 @@ Seq[Any](format.raw/*1.39*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Tue Dec 18 10:07:22 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/snippets/update/updateRemoveSubfields.scala.html
+                    DATE: Fri Dec 28 12:49:10 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/snippets/update/updateRemoveSubfields.scala.html
                     HASH: 323c5d7348b8e62e48806d8fd090252e045476d1
                     MATRIX: 557->1|671->38|707->40|735->60|774->62|837->90|865->110|904->112|937->114|996->138|1011->145|1023->149|1072->161|1155->209|1169->215|1204->229|1250->244
                     LINES: 19->1|22->1|23->2|23->2|23->2|25->4|25->4|25->4|25->4|26->5|26->5|26->5|26->5|27->6|27->6|27->6|28->7

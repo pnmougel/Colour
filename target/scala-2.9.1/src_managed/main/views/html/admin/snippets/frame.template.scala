@@ -40,8 +40,8 @@ Seq[Any](format.raw/*1.82*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sun Dec 23 09:21:55 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/admin/snippets/frame.scala.html
+                    DATE: Fri Dec 28 12:49:09 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/admin/snippets/frame.scala.html
                     HASH: ad9143c9ea994ae0e5c48ba7e44fc91e3124e7c1
                     MATRIX: 539->1|696->81|833->182|862->189|1324->616|1349->620|1392->628|1418->633|1523->703|1551->710
                     LINES: 19->1|22->1|24->3|24->3|26->5|26->5|26->5|26->5|29->8|29->8

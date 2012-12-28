@@ -53,8 +53,8 @@ However, it remains a good indicator and as such we hope that the colour ranking
 }
                 /*
                     -- GENERATED --
-                    DATE: Thu Dec 20 16:53:53 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/help/about.scala.html
+                    DATE: Fri Dec 28 12:49:09 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/help/about.scala.html
                     HASH: 782e1ac952d1871356040cd8f094c995122b1eb5
                     MATRIX: 574->1
                     LINES: 22->2

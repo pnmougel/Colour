@@ -53,8 +53,8 @@ Seq[Any](format.raw/*1.25*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Fri Dec 21 16:53:57 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/conferences/userScores.scala.html
+                    DATE: Fri Dec 28 12:49:09 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/conferences/userScores.scala.html
                     HASH: dc5d4108d6c5cc5e89f68b55d3704633ff52e0f7
                     MATRIX: 525->1|625->24|772->137|812->169|851->171|892->196|904->201|942->202|985->210|1002->218|1062->256|1104->267|1242->370|1259->378|1336->433|1391->452|1408->460|1485->515|1540->534|1557->542|1634->597|1689->616|1706->624|1783->679
                     LINES: 19->1|22->1|28->7|28->7|28->7|30->9|30->9|30->9|31->10|31->10|31->10|33->12|38->17|38->17|38->17|39->18|39->18|39->18|40->19|40->19|40->19|41->20|41->20|41->20

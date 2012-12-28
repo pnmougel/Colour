@@ -48,8 +48,8 @@ As the quality of a publication might change over time, hopefully in a better wa
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat Dec 22 19:14:09 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/help/contribute/vote.scala.html
+                    DATE: Fri Dec 28 12:49:09 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/help/contribute/vote.scala.html
                     HASH: 4fd3b0af43d896ed3a94e829c3f315607f899fe2
                     MATRIX: 584->1
                     LINES: 22->2

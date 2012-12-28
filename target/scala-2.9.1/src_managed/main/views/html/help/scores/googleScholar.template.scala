@@ -31,8 +31,8 @@ Seq[Any](format.raw/*2.1*/("""You can get information on the way Google Scholar 
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat Dec 22 19:15:32 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/help/scores/googleScholar.scala.html
+                    DATE: Fri Dec 28 12:49:09 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/help/scores/googleScholar.scala.html
                     HASH: 0bb4c458a66c75adb49f0af74bf97c988219044c
                     MATRIX: 589->1
                     LINES: 22->2

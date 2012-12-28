@@ -34,8 +34,8 @@ Seq[Any](format.raw/*2.1*/("""<p>This website is collaborative,
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat Dec 22 19:17:08 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/help/api/examples.scala.html
+                    DATE: Fri Dec 28 12:49:09 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/help/api/examples.scala.html
                     HASH: 8776c20988e419c31d69b79a5c962ac8be06f1e0
                     MATRIX: 581->1
                     LINES: 22->2

@@ -1,6 +1,6 @@
-// @SOURCE:/home/nico/Dropbox/workspace_scala/Confer/conf/routes
+// @SOURCE:/home/nico/Dropbox/workspace_scala/Colour/conf/routes
 // @HASH:530c5bb1524a630f4817f4c1f03ad04533ebe7d9
-// @DATE:Tue Dec 25 15:13:19 NCT 2012
+// @DATE:Fri Dec 28 12:49:07 NCT 2012
 
 package controllers.admin;
 

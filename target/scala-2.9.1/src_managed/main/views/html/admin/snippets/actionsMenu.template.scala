@@ -42,8 +42,8 @@ Seq[Any](format.raw/*1.139*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Dec 17 00:45:13 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/admin/snippets/actionsMenu.scala.html
+                    DATE: Fri Dec 28 12:49:09 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/admin/snippets/actionsMenu.scala.html
                     HASH: 71cd0d28c15f22efec8628fcbf38b6b94ff1f583
                     MATRIX: 635->1|850->138|915->169|940->186|952->190|1019->220|1083->249|1112->257|1158->269|1173->276|1185->280|1234->292|1304->327|1318->333|1344->338|1397->356|1411->362|1437->367|1480->375|1494->381|1521->387|1567->403|1604->409
                     LINES: 19->1|22->1|26->5|26->5|26->5|26->5|27->6|27->6|28->7|28->7|28->7|28->7|29->8|29->8|29->8|29->8|29->8|29->8|29->8|29->8|29->8|30->9|31->10

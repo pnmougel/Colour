@@ -70,8 +70,8 @@ Seq[Any](_display_(Seq[Any](/*1.2*/helper/*1.8*/.form(routes.Search.search, 'cla
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat Dec 22 21:14:25 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/snippets/search.scala.html
+                    DATE: Fri Dec 28 12:49:10 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/snippets/search.scala.html
                     HASH: e8830a5cd68a6db008db08922312ef0ad27d061f
                     MATRIX: 588->1|601->7|661->59|700->61|1795->1120|1809->1125|1828->1135|1877->1146|1958->1191|1972->1196|1997->1199|2036->1202|2050->1207|2077->1212|2144->1247|2578->1645|2593->1651|2618->1667|2667->1678|2748->1723|2762->1728|2787->1731|2826->1734|2840->1739|2867->1744|2934->1779
                     LINES: 22->1|22->1|22->1|22->1|41->20|41->20|41->20|41->20|42->21|42->21|42->21|42->21|42->21|42->21|43->22|52->31|52->31|52->31|52->31|53->32|53->32|53->32|53->32|53->32|53->32|54->33

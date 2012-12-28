@@ -55,8 +55,8 @@ Note that we do not check the usage made of the collected data by third parties.
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Dec 24 16:47:05 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/help/privacy.scala.html
+                    DATE: Fri Dec 28 12:49:09 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/help/privacy.scala.html
                     HASH: b261598130675c3a914eb93074d1ce6ba620cc5d
                     MATRIX: 576->1
                     LINES: 22->2

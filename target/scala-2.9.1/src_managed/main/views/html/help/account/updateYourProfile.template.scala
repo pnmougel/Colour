@@ -31,8 +31,8 @@ Seq[Any]()}
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat Dec 22 19:13:36 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/help/account/updateYourProfile.scala.html
+                    DATE: Fri Dec 28 12:49:09 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/help/account/updateYourProfile.scala.html
                     HASH: 8b2b303e3191cdb310657097660fd22ac510c2d1
                     MATRIX: 
                     LINES: 

@@ -50,8 +50,8 @@ Seq[Any](format.raw/*1.40*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Fri Dec 21 19:32:56 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/snippets/comment.scala.html
+                    DATE: Fri Dec 28 12:49:10 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/snippets/comment.scala.html
                     HASH: e0da4de919702847f69e0e3edaf834587ae2e8d8
                     MATRIX: 530->1|645->39|699->58|714->65|738->68|903->198|918->205|947->213|995->227|1028->252|1067->254|1111->264|1126->271|1163->287|1199->293|1341->400|1390->440|1430->442|1520->496|1536->503|1561->506|1625->539|1672->550|1688->557|1718->565
                     LINES: 19->1|22->1|24->3|24->3|24->3|27->6|27->6|27->6|28->7|28->7|28->7|29->8|29->8|29->8|30->9|33->12|33->12|33->12|34->13|34->13|34->13|35->14|36->15|36->15|36->15

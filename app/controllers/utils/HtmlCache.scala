@@ -14,9 +14,7 @@ object HtmlCache {
         val dirFile = new File("cache/" + directory)
         dirFile.mkdirs()
         val cacheFile = new File("cache/" + directory + "/" + fileName)
-        println(cacheFile)
         if (cacheFile.exists()) {
-            println("Found !!")
             val html = Source.fromFile(cacheFile).getLines().mkString("\n")
             Option(Jsoup.parse(html))
         } else {

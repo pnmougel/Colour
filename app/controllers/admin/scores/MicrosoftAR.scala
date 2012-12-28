@@ -43,13 +43,11 @@ object MicrosoftAR extends AdminAction with PublicationCreator {
     var nbObjectsTotal = 0
     var objectCounter = 0
     
-    var publicationsT = new HashMap[(String, String, CType, Field), MicrosoftConferenceInformation]()
+    var publicationsT = new HashMap[String, MicrosoftConferenceInformation]()
     
     def updatePublicationInformation(publicationInformation : MicrosoftConferenceInformation) {
-        val publication = (publicationInformation.name, publicationInformation.shortName.getOrElse(""),  
-                publicationInformation.ctype.get, publicationInformation.field.get)
-        publicationsT(publication) = {
-            val pInfoOpt = publicationsT.get(publication)
+        publicationsT(publicationInformation.url) = {
+            val pInfoOpt = publicationsT.get(publicationInformation.url)
             if(pInfoOpt.isDefined) {
             	val pInfo = pInfoOpt.get
                 MicrosoftConferenceInformation(pInfo.name, 
@@ -74,13 +72,19 @@ object MicrosoftAR extends AdminAction with PublicationCreator {
     override def run(request : Request[AnyContent]) = {
 	    clearMessages()
 	    
-        infoMessage("Adding journals...")
+        infoMessage("Parsing journals...")
         getByField(MicrosoftARJournalId)
 
-        infoMessage("Adding conferences...")
+        infoMessage("Parsing conferences...")
         getByField(MicrosoftARConferenceId)
         
-        println(publicationsT)
+        infoMessage("Database inserts")
+        publicationsT.zipWithIndex.foreach { case ((url, publicationInformation), idx) =>
+            setPercentage(100 * idx / publicationsT.size) 
+	        PublicationMatching.addPublication(publicationInformation, this)
+	    }
+        
+        // println(publicationsT)
         
         // PublicationMatching.addPublication(conferenceInformation, this)
         

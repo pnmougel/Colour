@@ -41,8 +41,8 @@ Seq[Any](format.raw/*1.73*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat Dec 22 16:30:09 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/snippets/longText.scala.html
+                    DATE: Fri Dec 28 12:49:10 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/snippets/longText.scala.html
                     HASH: 7bcde28b25f3f9ae80468c8855911d61ba1ef896
                     MATRIX: 525->1|673->72|710->75|751->108|790->110|837->122|862->126|901->135|937->137|978->170|1017->172|1064->184|1129->228|1188->252|1212->255|1288->296|1312->299|1372->324|1446->376|1541->436|1565->439|1634->473|1658->476|1703->490
                     LINES: 19->1|22->1|24->3|24->3|24->3|25->4|25->4|26->5|27->6|27->6|27->6|28->7|28->7|28->7|28->7|29->8|29->8|29->8|29->8|30->9|30->9|30->9|30->9|31->10

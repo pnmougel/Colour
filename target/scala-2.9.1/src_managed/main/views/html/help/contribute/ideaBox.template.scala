@@ -58,8 +58,8 @@ Note that you cannot vote several times for the same idea.</p>
 }
                 /*
                     -- GENERATED --
-                    DATE: Sun Dec 23 02:54:08 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/help/contribute/ideaBox.scala.html
+                    DATE: Fri Dec 28 12:49:09 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/help/contribute/ideaBox.scala.html
                     HASH: 67c90f389433f65a21003de0dcf2c3529b916fff
                     MATRIX: 587->1
                     LINES: 22->2

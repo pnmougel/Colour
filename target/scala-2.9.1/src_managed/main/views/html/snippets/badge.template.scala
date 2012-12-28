@@ -48,8 +48,8 @@ Seq[Any](format.raw/*1.41*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Dec 17 21:15:12 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/snippets/badge.scala.html
+                    DATE: Fri Dec 28 12:49:10 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/snippets/badge.scala.html
                     HASH: 39a32517f456e29bd2c84d84a67382067f8e8443
                     MATRIX: 526->1|642->40|679->43|1288->631
                     LINES: 19->1|22->1|24->3|38->17

@@ -50,3 +50,12 @@ run
 eclipsify
 ~run
 run
+dist
+cloudbees-deploy
+run
+play
+run
+cloudbees-deploy
+run
+cloudbees-deploy
+run

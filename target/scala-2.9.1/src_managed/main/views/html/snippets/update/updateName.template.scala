@@ -34,8 +34,8 @@ Seq[Any](format.raw/*1.22*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Tue Dec 18 09:35:25 NCT 2012
-                    SOURCE: /home/nico/Dropbox/workspace_scala/Confer/app/views/snippets/update/updateName.scala.html
+                    DATE: Fri Dec 28 12:49:10 NCT 2012
+                    SOURCE: /home/nico/Dropbox/workspace_scala/Colour/app/views/snippets/update/updateName.scala.html
                     HASH: d3ab21d6909892ee82190f2f1c29e152eb3779d1
                     MATRIX: 530->1|627->21|726->85|740->91|768->98|845->139|860->145|888->151
                     LINES: 19->1|22->1|24->3|24->3|24->3|24->3|24->3|24->3
