@@ -1,8 +1,0 @@
-# --- !Ups
-
-ALTER TABLE external_ranking ADD COLUMN scoreType_id BIGINT REFERENCES externalscoretype(id) ON DELETE CASCADE;
-
-# --- !Downs
-
-ALTER TABLE external_ranking DROP COLUMN scoreType_id;
-
